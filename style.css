@@ -1,0 +1,149 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+
+/* GENERAL */
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+#main {
+  margin: auto auto;
+  border: 5px black solid;
+  background: #006bd1;
+  color: black;
+}
+
+/* TITLE */
+#title {
+  margin: 20px auto;
+  width: 50%;
+  text-align: center;
+  padding: 20px 0;
+}
+header {
+  font-size: 3rem;
+  font-weight: bold;
+}
+#title-paragraph {
+  font-size: 2rem;
+}
+
+/* PHOTO */
+#img-div {
+  background-color: #00a0ff;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: 5px solid black;
+  width: 90%;
+}
+#image {
+  display: block;
+  margin: 20px auto;
+  max-width: 80%;
+}
+
+#img-caption {
+  margin: 20px auto;
+  width: 50%;
+  text-align: center;
+  font-size: 1.6rem;
+}
+/* TRIBUTE */
+#tribute-info {
+  margin: 20px auto;
+  text-align: justify;
+  line-height: 2.6rem;
+  width: 90%;
+}
+#paragraphs {
+  background-color: #00a0ff;
+  border: 5px solid black;
+  border-radius: 5px;
+  width: 90%;
+  margin: 20px auto;
+  font-size: 1.6rem;
+}
+#paragraph1,
+#paragraph2 {
+  margin: 20px auto;
+  width: 70%;
+}
+#wiki-link {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  width: 70%;
+  margin: 20px auto;
+}
+#tribute-link {
+  text-decoration: none;
+  color: blue;
+}
+#tribute-link:hover {
+  text-decoration: underline;
+}
+
+/* QUOTE */
+#blockquote {
+  background-color: #00a0ff;
+  width: 45%;
+  margin: 20px auto;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+#quote-text {
+  font-size: 1.8rem;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 2.6rem;
+  font-style: italic;
+}
+cite {
+  display: block;
+  font-style: normal;
+}
+
+@media screen and (max-width: 500px) {
+  #main {
+    margin: 0;
+    border-radius: 0;
+  }
+
+  #title {
+    font-size: 1.2rem;
+  }
+  #title-paragraph {
+    font-size: 1.6rem;
+  }
+  #img-caption {
+    font-size: 1rem;
+  }
+  #tribute-info {
+    line-height: 2.2rem;
+    width: 100%;
+  }
+  #paragraphs {
+    width: 100%;
+    margin: 20px auto;
+    border: hidden;
+  }
+  #paragraph1,
+  #paragraph2 {
+    font-size: 1.4rem;
+  }
+  #wiki-link {
+    font-size: 1.6rem;
+  }
+  #blockquote {
+    width: 80%;
+  }
+  #quote-text {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+}
